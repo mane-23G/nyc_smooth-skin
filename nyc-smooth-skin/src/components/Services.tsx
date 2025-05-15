@@ -1,4 +1,7 @@
-import serviceData from '../../data/services.json'
+import serviceData from '../../data/services.json';
+import { Outlet, Link  } from "react-router-dom";
+// import AboutLaser from './LaserHairRemovalAbout'
+
 type Service = {
     service: string
     name: string
@@ -16,11 +19,12 @@ export function Services() {
             <div className='services'>
                 {serviceData.map((s: Service) =>
                     <div className='serviceCard'>
-                        <p><a href={s.link}>{s.service}</a></p>
+                        {/* <p><a href={s.link}>{s.service}</a></p> */}
                         <div>
                             Service Provider: {s.name}
                             <br></br>
-                            <a href={s.linktoappt}>Book an Appointment</a> via {s.booking}
+                            <Link to={s.linktoappt}>Book an Appointment</Link>
+                            {/* <a href={s.linktoappt}>Book an Appointment</a> via {s.booking} */}
                         </div>
                     </div>
                 )}

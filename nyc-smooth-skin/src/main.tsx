@@ -1,10 +1,43 @@
-import { StrictMode } from 'react'
+import { Children, StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
+import { NavBar } from './components/NavBar.tsx'
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
+import { Footer } from './components/Footer.tsx'
+import { AboutNails } from './pages/AboutNails.tsx'
+import { AboutLaserHairRemoval } from './pages/AboutLaserHairRemoval.tsx'
 
+const Layout =()=> {
+  return (
+    <div>
+      <NavBar />
+      <Outlet />
+      <Footer />
+    </div>
+  );
+};
+
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element:<Layout />,
+    children: [
+      {
+        path: "/",
+        element: <App />,
+      },
+      {
+        path: "/AboutNails",
+        element: <AboutNails />,
+      },
+      {
+        path: "/AboutLaserHairRemoval",
+        element: <AboutLaserHairRemoval />,
+      },
+    ]
+  }  
+])
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  <RouterProvider router={router} />
 )
