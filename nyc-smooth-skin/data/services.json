@@ -3,14 +3,14 @@
         "service": "Laser Hair Removal",
         "name": "Anush",
         "booking": "Phone or Online",
-        "link": "/laser",
-        "linktoappt": "/AboutLaserHairRemoval"
+        "link": "/AboutLaserHairRemoval",
+        "linktoappt": "/VisitUs"
     },
     {
         "service": "Manicure and Pedicure",
         "name": "Natasha",
         "booking": "Phone",
-        "link": "/nails",
-        "linktoappt": "/AboutNails"
+        "link": "/AboutNails",
+        "linktoappt": "/VisitUs"
     }
 ]

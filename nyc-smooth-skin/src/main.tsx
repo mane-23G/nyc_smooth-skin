@@ -7,6 +7,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import { Footer } from './components/Footer.tsx'
 import { AboutNails } from './pages/AboutNails.tsx'
 import { AboutLaserHairRemoval } from './pages/AboutLaserHairRemoval.tsx'
+import { VisitUs } from './pages/VisitUs.tsx'
 
 const Layout =()=> {
   return (
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/AboutLaserHairRemoval",
         element: <AboutLaserHairRemoval />,
+      },
+      {
+        path: "/VisitUs",
+        element: <VisitUs />,
       },
     ]
   }  

@@ -19,12 +19,11 @@ export function Services() {
             <div className='services'>
                 {serviceData.map((s: Service) =>
                     <div className='serviceCard'>
-                        {/* <p><a href={s.link}>{s.service}</a></p> */}
+                        <p><a href={s.link}>{s.service}</a></p>
                         <div>
                             Service Provider: {s.name}
                             <br></br>
-                            <Link to={s.linktoappt}>Book an Appointment</Link>
-                            {/* <a href={s.linktoappt}>Book an Appointment</a> via {s.booking} */}
+                            <a href={s.linktoappt}>Book an Appointment</a> via {s.booking}
                         </div>
                     </div>
                 )}

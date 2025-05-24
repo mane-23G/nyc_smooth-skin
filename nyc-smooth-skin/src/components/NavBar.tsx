@@ -6,7 +6,7 @@ export function NavBar() {
                     Menu
                 </li>
                 <li>
-                    <a href="">
+                    <a href='/VisitUs'>
                     Visit Us
                     </a>
                 </li>

@@ -34,6 +34,7 @@
 
 .navbar ul li a {
     text-decoration: none;
+    color: black;
     float: right;
     padding-right: 16px;
     /* padding: 13px; */
@@ -42,10 +43,10 @@
 }
 
 .navbar ul li a:hover {
-    color: aqua;
+    color: hotpink;
 }
 
-.titleName {
+.titleName, .pageName {
     background-color: #FCDFDF;
     width: 100%;
 }
@@ -56,6 +57,13 @@
     padding: 40px 40px;
     text-align: center;
 
+}
+
+.pageName p {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    padding: 40px 40px;
+    text-align: center;
 }
 
 .ourServices h1 {
