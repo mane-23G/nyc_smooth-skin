@@ -3,10 +3,10 @@ export function NavBar() {
         <div className='navbar'>
             <ul>
                 <li>
-                    Menu
+                    <a href='/' className='menu-link'>Menu</a>
                 </li>
                 <li>
-                    <a href='/VisitUs'>
+                    <a href='/VisitUs' className='visitus-link'>
                     Visit Us
                     </a>
                 </li>

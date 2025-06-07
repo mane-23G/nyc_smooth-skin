@@ -1,16 +1,18 @@
 [
     {
-        "service": "Laser Hair Removal",
+        "service": "Laser Procedures",
         "name": "Anush",
         "booking": "Phone or Online",
-        "link": "/AboutLaserHairRemoval",
-        "linktoappt": "/VisitUs"
+        "link": "/AboutLaserProcedures",
+        "linktoappt": "/VisitUs",
+        "phonenum": "347-888-888"
     },
     {
         "service": "Manicure and Pedicure",
         "name": "Natasha",
         "booking": "Phone",
         "link": "/AboutNails",
-        "linktoappt": "/VisitUs"
+        "linktoappt": "/VisitUs",
+        "phonenum": "347-444-4444"
     }
 ]

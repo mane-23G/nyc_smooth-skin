@@ -8,6 +8,7 @@ type Service = {
     booking: string
     link: string
     linktoappt: string
+    phonenum: string
 }
 
 export function Services() {

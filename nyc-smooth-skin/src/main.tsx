@@ -6,8 +6,11 @@ import { NavBar } from './components/NavBar.tsx'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import { Footer } from './components/Footer.tsx'
 import { AboutNails } from './pages/AboutNails.tsx'
-import { AboutLaserHairRemoval } from './pages/AboutLaserHairRemoval.tsx'
+import { AboutLaserProcedures } from './pages/AboutLaserProcedures.tsx'
 import { VisitUs } from './pages/VisitUs.tsx'
+import { ContactUs } from './pages/ContactUs.tsx'
+import { Guide } from './pages/Guide.tsx'
+import { FAQ } from './pages/FAQ.tsx'
 
 const Layout =()=> {
   return (
@@ -33,13 +36,26 @@ const router = createBrowserRouter([
         element: <AboutNails />,
       },
       {
-        path: "/AboutLaserHairRemoval",
-        element: <AboutLaserHairRemoval />,
+        path: "/AboutLaserProcedures",
+        element: <AboutLaserProcedures />,
       },
       {
         path: "/VisitUs",
         element: <VisitUs />,
       },
+      {
+        path: "/ContactUs",
+        element: <ContactUs />,
+      },
+      {
+        path: "/FAQ",
+        element: <FAQ />
+      },
+      {
+        path: "/Guide",
+        element: <Guide />
+      },
+
     ]
   }  
 ])

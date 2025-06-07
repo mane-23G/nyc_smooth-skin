@@ -28,12 +28,19 @@
 .navbar ul li {
     display: inline;
     /* padding: 13px; */
+    /* text-decoration: none; */
+    color: black;
     font-family: 'PlayfairDisplay', serif;
     font-size: 18px;
 }
 
 .navbar ul li a {
-    text-decoration: none;
+    color: black;
+}
+
+/* .navbar ul li a { */
+.visitus-link {
+    /* text-decoration: none; */
     color: black;
     float: right;
     padding-right: 16px;
@@ -44,6 +51,7 @@
 
 .navbar ul li a:hover {
     color: hotpink;
+    text-decoration: none;
 }
 
 .titleName, .pageName {
@@ -135,6 +143,66 @@
     font-size: 20px;
 }
 
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* height: 220px; */
+    /* padding-bottom: auto; */
+}
+
+.contactUsCard {
+    text-align: left;
+    font-size: 20px;
+    padding: 15px 0px 15px 25px;
+}
+
+.contactUsCard p {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.aboutlaserprocedures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.laserHairRemoval , 
+.laserTreatments {
+    padding: 20px;
+    width: 50%;
+    background-color: #FCDFDF;
+    margin: 20px;
+}
+
+.laserHairRemoval h2, 
+.laserTreatments h2 {
+    text-align: center;
+}
+
+.aboutlaserextra {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.aboutlaserextra p{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
 @media only screen and (max-width:730px) {
     .footer {
         flex-wrap: wrap;
@@ -162,4 +230,17 @@
         font-size: 16px;
     }
 
+    .aboutlaserextra p {
+        font-size: 16px;
+    }
+
+    .laserHairRemoval h2, 
+    .laserTreatments h2 {  
+        font-size: 18px; 
+    }
+
+    .laserHairRemoval p, 
+    .laserTreatments p {
+        font-size: 16px;
+    }
 }
