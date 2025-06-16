@@ -38,6 +38,12 @@
     color: black;
 }
 
+.menu-link {
+    position: relative;
+    top: -3px;
+    margin-left: 5px;
+}
+
 /* .navbar ul li a { */
 .visitus-link {
     /* text-decoration: none; */
@@ -52,6 +58,11 @@
 .navbar ul li a:hover {
     color: hotpink;
     text-decoration: none;
+}
+
+.lucide-menu {
+    position: relative;
+    top: -1px;
 }
 
 .titleName, .pageName {

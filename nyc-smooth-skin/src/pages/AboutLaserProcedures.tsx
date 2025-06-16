@@ -12,7 +12,7 @@ export function AboutLaserProcedures() {
             </div>
             <div className="aboutlaserextra">
                 <p>
-                    If you have any more questions check out our <a href="/FAQ">FAQ</a>
+                    If you have any more questions check out our <a href="/Laser/FAQ">FAQ</a>
                 </p>
                 <p>
                     If you have an upcoming appointment or are curious about how to prepare and what to except check out our <a href="/Guide">Guide</a>.

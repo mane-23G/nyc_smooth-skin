@@ -48,7 +48,7 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "/FAQ",
+        path: "/Laser/FAQ",
         element: <FAQ />
       },
       {
