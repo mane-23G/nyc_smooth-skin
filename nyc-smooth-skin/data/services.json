@@ -2,7 +2,7 @@
     {
         "service": "Laser Procedures",
         "name": "Anush",
-        "booking": "Phone or Online",
+        "booking": "Phone",
         "link": "/AboutLaserProcedures",
         "linktoappt": "/VisitUs",
         "phonenum": "347-888-888"
