@@ -9,7 +9,6 @@ import { X} from "lucide-react";
 import { SideBar } from './components/SideBar';
 import Logo from './assets/logo1.png'
 
-
 function App() {
 
   return (

@@ -1,0 +1,102 @@
+[
+    {
+        "part" : "Full Body",
+        "singleCost" : "280",
+        "prepayCost" : "240"
+    },
+    {
+        "part" : "Full Face",
+        "singleCost" : "50",
+        "prepayCost" : "40"
+    },
+    {
+        "part" : "Full Arms" ,
+        "singleCost" : "70" ,
+        "prepayCost" : "60" 
+    },
+    {
+        "part" : "Full Legs" ,
+        "singleCost" : "120" ,
+        "prepayCost" : "100" 
+    },
+    {
+        "part" : "Full Back" ,
+        "singleCost" : "120" ,
+        "prepayCost" : "100" 
+    },
+    {
+        "part" : "Full Brazilian" ,
+        "singleCost" : "80" ,
+        "prepayCost" : "70" 
+    },
+    {
+        "part" : "Bikini Line" ,
+        "singleCost" : "45" ,
+        "prepayCost" : "40" 
+    },    
+    {
+        "part" : "Under Arm" ,
+        "singleCost" : "25" ,
+        "prepayCost" : "20" 
+    },
+    {
+        "part" : "Shoulders" ,
+        "singleCost" : "50" ,
+        "prepayCost" : "40" 
+    },
+    {
+        "part" : "Neck" ,
+        "singleCost" : "40" ,
+        "prepayCost" : "30" 
+    },
+    {
+        "part" : "Forehead" ,
+        "singleCost" : "20" ,
+        "prepayCost" : "20" 
+    },
+    {
+        "part" : "Cheeks" ,
+        "singleCost" : "30" ,
+        "prepayCost" : "30" 
+    },
+    {
+        "part" : "Chin" ,
+        "singleCost" : "20" ,
+        "prepayCost" : "20" 
+    },
+    {
+        "part" : "Lip" ,
+        "singleCost" : "15" ,
+        "prepayCost" : "15" 
+    },
+    {
+        "part" : "Fingers" ,
+        "singleCost" : "15" ,
+        "prepayCost" : "15" 
+    },
+    {
+        "part" : "Knee" ,
+        "singleCost" : "40" ,
+        "prepayCost" : "40" 
+    },
+    {
+        "part" : "Ears" ,
+        "singleCost" : "20" ,
+        "prepayCost" : "20" 
+    },
+    {
+        "part" : "Full Legs & Full Arms" ,
+        "singleCost" : "160" ,
+        "prepayCost" : "160" 
+    },
+    {
+        "part" : "Under Arm & Lips & Legs" ,
+        "singleCost" : "140" ,
+        "prepayCost" : "140" 
+    },
+    {
+        "part" : "Brazilian & Under Arm" ,
+        "singleCost" : "90" ,
+        "prepayCost" : "90" 
+    }
+]

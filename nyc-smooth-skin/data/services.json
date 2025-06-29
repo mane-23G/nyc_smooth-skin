@@ -3,7 +3,7 @@
         "service": "Laser Procedures",
         "name": "Anush",
         "booking": "Phone",
-        "link": "/AboutLaserProcedures",
+        "link": "/Services/Laser",
         "linktoappt": "/VisitUs",
         "phonenum": "347-888-888"
     },
@@ -11,7 +11,7 @@
         "service": "Manicure and Pedicure",
         "name": "Natasha",
         "booking": "Phone",
-        "link": "/AboutNails",
+        "link": "/Services/Nails",
         "linktoappt": "/VisitUs",
         "phonenum": "347-444-4444"
     }

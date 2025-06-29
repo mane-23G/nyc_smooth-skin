@@ -11,6 +11,7 @@ import { VisitUs } from './pages/VisitUs.tsx'
 import { ContactUs } from './pages/ContactUs.tsx'
 import { Guide } from './pages/Guide.tsx'
 import { FAQ } from './pages/FAQ.tsx'
+import { LaserPricing } from './pages/Pricing/LaserPricing.tsx'
 
 const Layout =()=> {
   return (
@@ -32,11 +33,12 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/AboutNails",
+        path: "/Services/Nails",
         element: <AboutNails />,
       },
       {
-        path: "/AboutLaserProcedures",
+        // path: "/AboutLaserProcedures",
+        path: "/Services/Laser",
         element: <AboutLaserProcedures />,
       },
       {
@@ -48,12 +50,16 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "/Laser/FAQ",
+        path: "/Services/Laser/FAQ",
         element: <FAQ />
       },
       {
-        path: "/Guide",
+        path: "/Services/Laser/Guide",
         element: <Guide />
+      },
+      {
+        path: "/Services/Laser/Pricing",
+        element: <LaserPricing />
       },
 
     ]

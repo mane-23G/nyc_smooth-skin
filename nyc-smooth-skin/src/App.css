@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    background: #FCDFDF;
+    background: #FCDFDF ; 
     top: 0;
     margin: 0;
     padding: 0;
@@ -70,6 +70,7 @@
 .titleName, .pageName {
     background-color: #FCDFDF;
     width: 100%;
+
 }
 
 .titleName p {
@@ -256,11 +257,15 @@ a:hover {
     /* backdrop-filter: blur(5px); */
     overflow: hidden;
     padding: 10px; 
+
+    /* margin-right: 12px; */
+
     position: relative;
     z-index: 10000;
     border-radius: 5px;
     box-shadow: 3px 3px rgb(202, 193, 193);
-    margin-bottom: -346.5px;
+    margin-bottom: -343.5px;
+    /* border: solid 1px hotpink; */
 }
 
 .sideBar ul,
@@ -280,6 +285,90 @@ a:hover {
     text-decoration: none;
     background-color: #FCDFDF;
     padding: 0px;
+}
+
+.laserPricing {
+    display: flex;
+    justify-content: center;
+    /* padding: 15px; */
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    margin-bottom: 130px;
+}
+
+.laserPricing p {
+    font-size: 25px;
+}
+
+.laserPart,
+.singleCost,
+.prepayCost {
+    padding: 20px;
+}
+
+.nailsPage {
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    margin-bottom: 180px;
+}
+
+.nailsPageInfo {
+    background-color: #FCDFDF;
+    margin-bottom: 25px;
+}
+
+.nailsPage div p {
+    line-height: 250%;
+}
+
+.carousel {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.carousel img{
+    width: 300px;
+    height: auto;
+    border: gray dotted 1px;
+    margin: 10px;
+
+}
+
+.nailPrice {
+    background-color: #FCDFDF;
+}
+
+.nailPrice p {
+    font-size: 50px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.nailPricing {
+    display: flex;
+    justify-content: center;
+    /* padding: 15px; */
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    margin-bottom: 15px;
+}
+
+.nailPricing p {
+    font-size: 20px;
+}
+
+.nailPart,
+.nailCost {
+    padding: 10px 20px 20px;
 }
 
 @media only screen and (max-width: 787px) {
@@ -334,5 +423,8 @@ a:hover {
         font-size: 16px;
     }
 
+    .nailPricing p {
+        font-size: 15px;
+    }
 
 }

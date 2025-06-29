@@ -19,36 +19,37 @@ export function SideBar({isOpen, onClose}: SideBarProps) {
             <X size={20} strokeWidth={3} className="X" onClick={onClose}/>
             <ul className="sideBar-list">
                 <li>
-                    <a href="">Home Page</a>
+                    <a href="/">Home Page</a>
                 </li>
                 <li>
                     Services
                     <ul>
-                        <li>
-                            <a href="">Laser</a>
-                            <ul>
-                                <li>
-                                    <a href="">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="">Guide</a>
-                                </li>
-                                <li>
-                                    <a href="">FAQ</a>
-                                </li>
-                            </ul>
-                        </li>
+                
                         
                         <li>
-                            <a href="">Nails</a>
+                            <a href="/Services/Nails">Nails</a>
+                        </li>
+                        <li>
+                            <a href="/Services/Laser">Laser</a>
+                            <ul>
+                                <li>
+                                    <a href="/Services/Laser/Pricing">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="/Services/Laser/Guide">Guide</a>
+                                </li>
+                                <li>
+                                    <a href="/Services/Laser/FAQ">FAQ</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="">Contact Us</a>
+                    <a href="/ContactUs">Contact Us</a>
                 </li>
                 <li>
-                    <a href="">Visit Us</a>
+                    <a href="/VisitUs">Visit Us</a>
                 </li>
                 
 
