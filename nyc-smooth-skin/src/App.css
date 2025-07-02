@@ -163,7 +163,7 @@ a:visited {
 }
 
 .serviceCard div a {
-    color: black;
+    color: #eb8585;
 }
 
 .serviceCard div a:hover {
@@ -243,7 +243,7 @@ a:visited {
     padding: 20px;
     margin: 20px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .aboutlaserextra p{
@@ -253,6 +253,11 @@ a:visited {
 .aboutlaserextra a{
     color: #eb8585;
 }
+
+.aboutlaserextra a:hover{
+    color: #ec4b4b;
+}
+
 
 a {
     text-decoration: none;
@@ -283,10 +288,10 @@ a:hover {
     /* backdrop-filter: blur(5px); */
     overflow: hidden;
     padding: 10px; 
-
+    top: 0;
     /* margin-right: 12px; */
 
-    position: relative;
+    position: sticky;
     z-index: 10000;
     border-radius: 5px;
     box-shadow: 3px 3px #f5aeae;
@@ -365,6 +370,14 @@ a:hover {
     line-height: 250%;
 }
 
+.nailsPageInfo a {
+    color: #eb8585;
+}
+
+.nailsPageInfo a:hover {
+    color: #ec4b4b;
+}
+
 .carousel {
     /* display: flex;
     flex-wrap: wrap; */
@@ -414,6 +427,14 @@ a:hover {
     margin-bottom: 15px;
     padding: 15px;
     margin-bottom: 160px;
+}
+
+.faq a {
+    color: #eb8585;
+}
+
+.faq a:hover {
+    color: #ec4b4b;
 }
 
 .question {
@@ -499,6 +520,34 @@ a:hover {
     list-style: circle;
 }
 
+.visitus {
+    background-color: #FCDFDF;
+    margin: 60px 60px;
+    margin-bottom: 250px;
+    border-style: dashed;
+    border-color: #eb8585;
+    border-width: 5px;
+}
+
+.visitus p {
+    font-size: 250%;
+    text-align: center;
+    padding: 30px;
+    line-height: 170%;
+}
+
+.visitus ul {
+    padding: 30px;
+}
+
+.visitus li {
+    font-size: 180%;
+    text-align: center;
+    padding-left: 10px;
+    list-style: circle;
+    list-style-position:inside;
+    padding: 15px;
+}
 
 @media only screen and (max-width: 787px) {
     .logo {
@@ -567,4 +616,26 @@ a:hover {
     .fname, .lname {
         width: 100%;
     }
+
+    .visitus p {
+        font-size: 150%;
+    }
+
+    .visitus ul {
+        padding: 10px;
+    }
+
+    .visitus li {
+        font-size: 130%;
+        padding: 5px 0px;
+    }
+
+    .aboutlaserprocedures {
+        flex-wrap: wrap;
+    }
+
+    .laserHairRemoval , 
+    .laserTreatments {
+        width: 80%;
+}
 }

@@ -3,7 +3,7 @@ export function Footer() {
         <div className='footer'>
             <div className='socials'>
                 <p>Follow Us</p>
-                <a href=''>Instagram</a><br></br>
+                <a style={{display: "inline-block"}} href='https://www.instagram.com/nycsmoothskin/?utm_source=qr' target='_blank' rel="noopener noreferrer" >Instagram</a><br></br>
                 <a href=''>Facebook</a>
             </div>
             <div className='contactus'>
@@ -13,7 +13,7 @@ export function Footer() {
             </div>
             <div className='location'>
                 <p>Location</p>
-                <a style={{display: "table-cell"}} href = "https://maps.app.goo.gl/Rc4M7SnfXdxzqUcPA" target = "_blank" rel = "noopener noreferrer">12 Avenue O<br></br>
+                <a style={{display: "inline-block"}} href = "https://maps.app.goo.gl/Rc4M7SnfXdxzqUcPA" target = "_blank" rel = "noopener noreferrer">12 Avenue O<br></br>
                 Brooklyn, NY 11204</a>
             </div>
             <div className='hours'>

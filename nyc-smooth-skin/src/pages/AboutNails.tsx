@@ -9,9 +9,9 @@ export function AboutNails() {
             <div className="nailsPage">
                 <div className="nailsPageInfo">
                     <p>
-                        Natashsa is the service provider for Nails. She offer Manicures and Pedicures. She does Gel, Extensions, Regualar Polish, and Designs.
+                        Mariia is the service provider for Nails. She offer Manicures and Pedicures. She does Gel, Extensions, Regualar Polish, and Designs.
                         <br></br>
-                        To make an Appointment with Natasha please call (xxx) xxx-xxx.
+                        To make an Appointment with Natasha please call (917) 615-7678.
                         <br></br>
 
                         <div className="carousel">
