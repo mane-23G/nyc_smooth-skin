@@ -4,6 +4,18 @@
     font-family: 'Playfair Display', serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 .navbar {
     background: #FCDFDF ; 
     top: 0;
@@ -58,7 +70,7 @@
 }
 
 .navbar ul li a:hover {
-    color: hotpink;
+    color: #ec4b4b;
     text-decoration: none;
 }
 
@@ -133,7 +145,11 @@
     margin: 15px;
     font-size: 24px;
     font-weight: 250;
-    color: hotpink;
+    color: #eb8585;
+}
+
+.serviceCard p a:hover{
+    color: #ec4b4b;
 }
 
 .serviceCard div {
@@ -151,7 +167,8 @@
 }
 
 .serviceCard div a:hover {
-    color: #cc45ae;
+    color: #ec4b4b;
+    text-decoration: none;
 }
 
 .footer {
@@ -176,6 +193,11 @@
 .footer div p {
     font-weight: 550;
     font-size: 20px;
+}
+
+.location a,
+.socials a {
+    color: #ec4b4b;
 }
 
 .contactUs {
@@ -228,6 +250,10 @@
     font-size: 20px;
 }
 
+.aboutlaserextra a{
+    color: #eb8585;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -235,7 +261,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: hotpink;
+    color: #eb8585;
 }
 
 /* .sideBar ul li {
@@ -263,7 +289,7 @@ a:hover {
     position: relative;
     z-index: 10000;
     border-radius: 5px;
-    box-shadow: 3px 3px rgb(202, 193, 193);
+    box-shadow: 3px 3px #f5aeae;
     margin-bottom: -343.5px;
     /* border: solid 1px hotpink; */
 }
@@ -281,11 +307,21 @@ a:hover {
     margin: 0px;
 }
 
+.sideBar a:hover {
+    color: #ec4b4b;
+}
+
 .menu-sidebar {
     text-decoration: none;
     background-color: #FCDFDF;
     padding: 0px;
 }
+
+.X,
+.menu-sidebar {
+    cursor: pointer;
+}
+
 
 .laserPricing {
     display: flex;
@@ -371,6 +407,77 @@ a:hover {
     padding: 10px 20px 20px;
 }
 
+.faq {
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    margin-bottom: 15px;
+    padding: 15px;
+    margin-bottom: 160px;
+}
+
+.question {
+    font-weight: 700;
+}
+
+.answer {
+    padding-left: 15px;
+    line-height: 190%;
+}
+
+.contactUs {
+    /* align-items: center; */
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.contactUs input,
+.contactUs textarea{
+    border: #f5aeae 1.5px solid;
+}
+
+.contactUs p {
+    text-align: center;
+}
+
+.flname {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.fname, .lname {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.msg {
+    min-height: 60px;
+    max-height: 300px;
+    resize: vertical;
+    
+}
+
+.contactUs button {
+    background-color: #FCDFDF;
+    border: #f5aeae 1.5px solid;
+}
+
+.contactus-bottom {
+    margin-bottom: 250px;
+}
+
+.contactus-bottom p{
+    padding: 10px;
+    text-align: center;
+
+}
+
+
 @media only screen and (max-width: 787px) {
     .logo {
         display: none;
@@ -427,4 +534,15 @@ a:hover {
         font-size: 15px;
     }
 
+    .contactUs {
+        width: 60%;
+    }
+
+    .flname {
+        flex-direction: column;
+    }
+
+    .fname, .lname {
+        width: 100%;
+    }
 }
