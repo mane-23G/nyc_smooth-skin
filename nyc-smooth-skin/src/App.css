@@ -477,6 +477,28 @@ a:hover {
 
 }
 
+.guide {
+    padding: 5px 20px;
+    margin-bottom: 200px;
+}
+
+.guide h1 {
+    color: #eb8585;
+}
+
+.guide h3 {
+    margin-top: 20px;
+}
+
+.guide ul {
+    padding: 0px 25px;
+}
+
+.guide ul li {
+    line-height: 170%;
+    list-style: circle;
+}
+
 
 @media only screen and (max-width: 787px) {
     .logo {
