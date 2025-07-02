@@ -1,6 +1,3 @@
-import { useEffect, useState } from "react";
-import classNames from "classnames";
-import { ChevronsUp, Menu} from "lucide-react";
 import { X} from "lucide-react";
 
 type SideBarProps = {

@@ -1,5 +1,4 @@
 import serviceData from '../../data/services.json';
-import { Outlet, Link  } from "react-router-dom";
 // import AboutLaser from './LaserHairRemovalAbout'
 
 type Service = {

@@ -8,7 +8,6 @@ import {
     Text,
 } from '@react-email/components';
 import { CSSProperties } from 'react';
-import { ContactUs } from '../pages/ContactUs';
 
 interface ContactUsEmailProps {
     firstname: string;
@@ -49,7 +48,7 @@ export const ContactUsEmail = ({
                     {msg}
                 </Markdown>
                 <Text style={paragraph}>
-                    We will get back to you as soon as possible at {email}.
+                    We will get back to you as soon as possible at {email} about {subject}.
                 </Text>
             </Container>
         </Body>
