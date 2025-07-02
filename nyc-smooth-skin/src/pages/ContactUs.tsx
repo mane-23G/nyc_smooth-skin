@@ -5,7 +5,6 @@ import React, {useState} from "react";
 import { Resend } from "resend";
 // import { POST } from "../route";
 
-const resend = new Resend('re_aZ2TrVwV_JJCGCpZke8wr5P71fXU7znSP');
 
 interface FormState {
     firstname: string;
