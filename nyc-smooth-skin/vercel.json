@@ -1,6 +1,5 @@
 {
     "rewrites": [
-      { "source": "/", "destination": "/" },
       { "source": "/Services/Nails", "destination": "/Services/Nails" },
       { "source": "/Services/Laser", "destination": "/Services/Laser" } ,     
       { "source": "/VisitUs", "destination": "/VisitUs" },
