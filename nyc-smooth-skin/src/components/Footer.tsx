@@ -8,8 +8,8 @@ export function Footer() {
             </div>
             <div className='contactus'>
                 <p><a href="/ContactUs">Contact us</a></p>
-                <a href=''>(347) 888-8888</a><br></br>
-                <a href=''>nycsmoothskin@gmail.com</a>
+                <a href=''>(347) 598-7193</a><br></br>
+                <a href=''>nycsmoothskin1@gmail.com</a>
             </div>
             <div className='location'>
                 <p>Location</p>
