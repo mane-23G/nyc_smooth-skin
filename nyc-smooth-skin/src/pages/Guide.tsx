@@ -1,4 +1,4 @@
-import { PageName } from "../components/PageName";
+import { PageName } from "../components/PageName.js";
 
 export function Guide() {
     return(

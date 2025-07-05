@@ -1,6 +1,6 @@
 // import { NavBar } from './components/NavBar'
-import { Services } from './components/Services';
-import { Footer } from './components/Footer';
+import { Services } from './components/Services.js';
+import { Footer } from './components/Footer.js';
 import './App.css';
 // import { SideBar } from './components/SideBar';
 // import { useCallback, useState } from "react";

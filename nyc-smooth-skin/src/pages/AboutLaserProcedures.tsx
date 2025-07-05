@@ -1,6 +1,6 @@
-import { PageName } from "../components/PageName";
-import { LaserHairRemoval } from "./LaserHairRemoval";
-import { LaserTreatments } from "./LaserTreatments";
+import { PageName } from "../components/PageName.js";
+import { LaserHairRemoval } from "./LaserHairRemoval.js";
+import { LaserTreatments } from "./LaserTreatments.js";
 
 export function AboutLaserProcedures() {
     return (

@@ -1,6 +1,6 @@
-import { PageName } from "../components/PageName";
-import  {NailCarousel}  from "./NailComponents/NailCarousel";
-import { NailPricing } from "./Pricing/NailsPricing";
+import { PageName } from "../components/PageName.js";
+import  {NailCarousel}  from "./NailComponents/NailCarousel.js";
+import { NailPricing } from "./Pricing/NailsPricing.js";
 
 export function AboutNails() {
     return (

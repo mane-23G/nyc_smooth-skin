@@ -1,6 +1,6 @@
 // 'use client';
 
-import { PageName } from "../components/PageName";
+import { PageName } from "../components/PageName.js";
 import { TriangleAlert} from 'lucide-react';
 // import React, {useState} from "react";
 // import { Resend } from "resend";

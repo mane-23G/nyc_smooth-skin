@@ -1,5 +1,5 @@
 import { Menu} from "lucide-react";
-import { SideBar } from "./SideBar";
+import { SideBar } from "./SideBar.js";
 import { useState } from "react";
 
 

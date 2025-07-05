@@ -1,5 +1,5 @@
 import laserPrices from '../../../data/laser_price.json';
-import { PageName } from '../../components/PageName';
+import { PageName } from '../../components/PageName.js';
 
 type Price = {
     part: string
