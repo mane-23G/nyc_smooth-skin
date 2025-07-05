@@ -44,10 +44,6 @@ export function ContactUs() {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(formState),
-                // from: 'intomealdc@gmail.com',
-                // to: "bobfisherman30@gmail.com",
-                // subject: 'Thank you for contacting us, ${payload.name}',
-                // html: '<strong>It works!</strong>',
             });
             setFormState({firstname: '', lastname: '', email: '', subject: '', msg: ''});
         } catch(error) {
