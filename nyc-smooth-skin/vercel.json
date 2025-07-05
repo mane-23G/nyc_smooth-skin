@@ -1,11 +1,5 @@
 {
     "rewrites": [
-      { "source": "/Services/Nails", "destination": "/Services/Nails" },
-      { "source": "/Services/Laser", "destination": "/Services/Laser" } ,     
-      { "source": "/VisitUs", "destination": "/VisitUs" },
-      { "source": "/ContactUs", "destination": "/ContactUs" },
-      { "source": "/Services/Laser/FAQ", "destination": "/Services/Laser/FAQ" },
-      { "source": "/Services/Laser/Guide", "destination": "/Services/Laser/Guide" },
-      { "source": "/Services/Laser/Pricing", "destination": "/Services/Laser/Pricing" }
+      { "source": "/VisitUs", "destination": "/VisitUs" }
     ]
 }
