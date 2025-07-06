@@ -32,12 +32,12 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/Services/Nails",
+        path: "/Nails",
         element: <AboutNails />,
       },
       {
         // path: "/AboutLaserProcedures",
-        path: "/Services/Laser",
+        path: "/Laser",
         element: <AboutLaserProcedures />,
       },
       {
@@ -49,15 +49,15 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "/Services/Laser/FAQ",
+        path: "/Laser/FAQ",
         element: <FAQ />
       },
       {
-        path: "/Services/Laser/Guide",
+        path: "/Laser/Guide",
         element: <Guide />
       },
       {
-        path: "/Services/Laser/Pricing",
+        path: "/Laser/Pricing",
         element: <LaserPricing />
       },
 

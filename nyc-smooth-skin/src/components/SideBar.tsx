@@ -24,19 +24,19 @@ export function SideBar({isOpen, onClose}: SideBarProps) {
                 
                         
                         <li>
-                            <a href="/Services/Nails">Nails</a>
+                            <a href="/Nails">Nails</a>
                         </li>
                         <li>
-                            <a href="/Services/Laser">Laser</a>
+                            <a href="/Laser">Laser</a>
                             <ul>
                                 <li>
-                                    <a href="/Services/Laser/Pricing">Pricing</a>
+                                    <a href="/Laser/Pricing">Pricing</a>
                                 </li>
                                 <li>
-                                    <a href="/Services/Laser/Guide">Guide</a>
+                                    <a href="/Laser/Guide">Guide</a>
                                 </li>
                                 <li>
-                                    <a href="/Services/Laser/FAQ">FAQ</a>
+                                    <a href="/Laser/FAQ">FAQ</a>
                                 </li>
                             </ul>
                         </li>

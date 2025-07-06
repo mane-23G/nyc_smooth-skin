@@ -2,7 +2,6 @@
     "cleanUrls": true,
     "rewrites": [
       { "source": "/(.*)", "destination": "/" },
-      { "source": "/Services)/(.*)", "destination": "/Services/" }
-
+      { "source": "/Laser)/(.*)", "destination": "/Laser" }
     ]
 }
