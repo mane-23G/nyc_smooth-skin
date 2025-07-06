@@ -2,7 +2,7 @@
     "cleanUrls": true,
     "rewrites": [
       { "source": "/VisitUs", "destination": "/" },
-      { "source": "/ContactUs", "destination": "/" },
+      { "source": "/ContactUs", "destination": "/" }
 
     ]
 }
