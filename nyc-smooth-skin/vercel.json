@@ -1,6 +1,6 @@
 {   
     "cleanUrls": true,
     "rewrites": [
-      { "source": "/VisitUs", "destination": "/VisitUs" }
+      { "source": "/VisitUs", "destination": "/" }
     ]
 }
