@@ -349,6 +349,11 @@ a:hover {
     padding: 20px;
 }
 
+.singleCost p,
+.prepayCost p {
+    text-align: center;
+}
+
 .nailsPage {
     padding: 25px;
     text-align: center;
