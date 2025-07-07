@@ -13,18 +13,21 @@ export function LaserPricing() {
             <PageName title="Laser Pricing"/>
             <div className="laserPricing">
                 <div className="laserPart">
+                    <p>Body Part</p>
                     {laserPrices.map((lp: Price) =>
                         <p>{lp.part}</p>
                     )}
                 </div>
                 <div className="singleCost">
+                    <p>One Time</p>
                     {laserPrices.map((lp: Price) =>
-                        <p>$ {lp.singleCost}</p>
+                        <p style={{textAlign:"center"}}>$ {lp.singleCost}</p>
                     )}
                 </div>
                 <div className="prepayCost">
+                    <p>Prepay 6 Times</p>
                     {laserPrices.map((lp: Price) =>
-                        <p>$ {lp.prepayCost}</p>
+                        <p style={{textAlign:"center"}}>$ {lp.prepayCost}</p>
                     )}
                 </div>
             </div>
