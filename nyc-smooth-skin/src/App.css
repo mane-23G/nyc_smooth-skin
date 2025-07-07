@@ -668,16 +668,12 @@ a:hover {
     }
 
     .laserPricing p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     
     .laserPart {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    .doublelined {
-        /* padding-bottom: 20px; */
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }
