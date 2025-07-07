@@ -49,15 +49,18 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "/Laser/FAQ",
+        // path: "/Laser/FAQ",
+        path: "/Laser-FAQ",
         element: <FAQ />
       },
       {
-        path: "/Laser/Guide",
+        // path: "/Laser/Guide",
+        path: "/Laser-Guide",
         element: <Guide />
       },
       {
-        path: "/Laser/Pricing",
+        // path: "/Laser/Pricing",
+        path: "/Laser-Pricing",
         element: <LaserPricing />
       },
 
