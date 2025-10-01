@@ -33,7 +33,7 @@ export function ContactUs() {
     // const [isSubmitting, setIsSubmitting] = useState(false);
     // const [popup, setPopup] = useState(false);
     // const [succuess, setSuccuess] = useState(false);
-    // // const resend = new Resend('re_Xd9wxrVT_3ree9ZTvVbCbhN5kQyJpWPdC');
+    // // const resend = new Resend('');
  
     // const styles = {
     //     display: popup ? 'block' : 'none'
