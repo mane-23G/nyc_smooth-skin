@@ -201,25 +201,6 @@ a:visited {
     color: #ec4b4b;
 }
 
-.contactUs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* height: 220px; */
-    /* padding-bottom: auto; */
-}
-
-.contactUsCard {
-    text-align: left;
-    font-size: 20px;
-    padding: 15px 0px 15px 25px;
-}
-
-.contactUsCard p {
-    text-align: left;
-    font-size: 20px;
-    padding-left: 25px;
-}
 
 .aboutlaserprocedures {
     display: flex;
@@ -448,16 +429,34 @@ a:hover {
     line-height: 190%;
 }
 
+.contactUsF {
+    all: unset;
+}
+
 .contactUs {
-    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 600px;
     margin: 0 auto;
     padding-top: 20px;
 }
 
-.contactUs input,
+.contactUsCard {
+    text-align: left;
+    font-size: 20px;
+    padding: 15px 0px 15px 25px;
+}
+
+.contactUsCard p {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.contactUs input ,
 .contactUs textarea{
-    border: #f5aeae 1.5px solid;
+    border: #f5aeae 1.5px solid !important;
 }
 
 .contactUs p {
@@ -488,6 +487,10 @@ a:hover {
 .contactUs button {
     background-color: #FCDFDF;
     border: #f5aeae 1.5px solid;
+}
+
+.submit:hover {
+    background-color: #f5aeae;
 }
 
 .contactus-bottom {
@@ -567,6 +570,10 @@ a:hover {
 
 .alertbox a {
     color: #eb8585;
+}
+
+form {
+    all:unset;
 }
 
 @media only screen and (max-width: 787px) {
