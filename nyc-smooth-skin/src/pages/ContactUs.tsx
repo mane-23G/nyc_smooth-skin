@@ -2,21 +2,27 @@
 
 import { PageName } from "../components/PageName.js";
 import { TriangleAlert} from 'lucide-react';
-// import React, {useState} from "react";
+// import { useState } from "react";
+// import React from "react";
 // import { Resend } from "resend";
 // import { POST } from "../route";
+// import { useEffect } from "react";
+// import { Resend } from 'resend';
+// import { error } from "console";
+// import { text } from "stream/consumers";
 
 
-// interface FormState {
-//     firstname: string;
-//     lastname: string;
-//     email: string;
-//     subject: string;
-//     msg: string;
-// }
 
 export function ContactUs() {
-    // const [formState, setFormState] = useState<FormState>({
+    // interface formState {
+    //     firstname: string,
+    //     lastname: string,
+    //     email: string,
+    //     subject: string,
+    //     msg: string,
+    // }
+
+    // const [formState, setFormState] = useState<formState>({
     //     firstname: '',
     //     lastname: '',
     //     email: '',
@@ -25,38 +31,115 @@ export function ContactUs() {
     // });
 
     // const [isSubmitting, setIsSubmitting] = useState(false);
-
+    // const [popup, setPopup] = useState(false);
+    // const [succuess, setSuccuess] = useState(false);
+    // // const resend = new Resend('re_Xd9wxrVT_3ree9ZTvVbCbhN5kQyJpWPdC');
+ 
+    // const styles = {
+    //     display: popup ? 'block' : 'none'
+    // };
+    // const message = succuess ? "Your form was submitted successfully! Excpect a response in 1-3 days." : "There was an error processing your form! Please try again.";
 
     // const handleChange = (
     //     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
     // ) => {
     //     setFormState({...formState, [e.target.name]: e.target.value});
-    // };
-
-    // const handleSubmit = async(e: React.FormEvent) => {
-    //     e.preventDefault();
-
-    //     try {
-    //         setIsSubmitting(true);
-    //         console.log("in the handle submit function");
-    //         await fetch('/api/email', {
-    //             method: 'POST',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //             body: JSON.stringify(formState),
-    //             // from: 'intomealdc@gmail.com',
-    //             // to: "bobfisherman30@gmail.com",
-    //             // subject: 'Thank you for contacting us, ${payload.name}',
-    //             // html: '<strong>It works!</strong>',
-    //         });
-    //         setFormState({firstname: '', lastname: '', email: '', subject: '', msg: ''});
-    //     } catch(error) {
-    //         console.log(error);
-    //     } finally {
+    //     if(formState.email.length == 0 || formState.firstname.length == 0 || formState.lastname.length == 0 || formState.msg.length == 0 || formState.subject.length == 0) {
     //         setIsSubmitting(false);
+    //     } else setIsSubmitting(true);
+    // };
+    
+
+    // const [showPopUp, setShowPopUp] = useState(false);
+    // const showPopupHandler = () => setShowPopUp(true);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //     setShowPopUp(false);
+    //     }, 100000);
+    // return () => clearTimeout(timer);
+    // }, [showPopUp]);
+    // if(showPopUp) {
+    //     // popup = text ? <PopUp msg="Your form was submitted successfully! Excpect a response in 1-3 days."/> : <PopUp msg="There was an error processing your form! Please try again."/>;
+    //     popup = <PopUp msg="It worked"/>
+    // }
+
+    // async function handleSubmit() {
+    //     try {
+    //         const data = await resend.emails.send({
+    //         from: 'Acme <onboarding@resend.dev>',
+    //         to: ['delivered@resend.dev'],
+    //         subject: 'Hello World',
+    //         html: '<strong>It works!</strong>'
+    //         });
+
+    //         console.log(data);
+    //     } catch (error) {
+    //         console.error(error);
     //     }
     // };
+
+    /** 
+    async function handleSubmit() {
+        const { data, error } = await resend.emails.send({
+            from: 'Acme <tester@gmail.com',
+            to: ['bobfisherman30@gmail.com'],
+            subject: 'Hello World',
+            html: '<strong>It works!</strong>',
+        });
+
+        if (error) {
+            return console.error({ error });
+        }
+
+        console.log({ data });
+        /*** 
+    
+        try {
+            setIsSubmitting(true);
+            // console.log("email " + formState.email);
+            // console.log("sub " + formState.subject);
+            // console.log("fname " + formState.firstname);
+            // console.log("msg " + formState.msg);
+
+            const nameemail = formState.firstname + " " + formState.lastname + " " + formState.email
+            resend.emails.send({
+                from: formState.email,
+                to: 'bobfisherman30@gmail.com',
+                subject: formState.subject,
+                html: formState.msg
+            });
+            setFormState({firstname: '', lastname: '', email: '', subject: '', msg: ''});
+            setIsSubmitting(false);
+            console.log(popup);
+            setSuccuess(true);
+            console.log("success");
+            setPopup(true);
+        } catch(error) {
+            console.log(error);
+            console.log(popup);
+            setSuccuess(false);
+
+
+            setPopup(true);
+
+
+            console.log("failure");
+
+        } 
+        console.log(styles);
+        // finally {
+        //     const timer = setTimeout(() => {
+        //         popup = true;
+        //     }, 100000);
+        //     return () => {
+        //         clearTimeout(timer);
+        //         popup = false;
+        //     }
+        // }
+        */
+    // }
+
+
 
     return (
         <div>
@@ -66,8 +149,14 @@ export function ContactUs() {
                 <TriangleAlert color="#eb8585" size={64} className="trianglealert"/>
                 <p style={{display: "inline"}}>Contact Us is currently underconstruction, please call directly to <a>(347) 598-7193</a> or email at <a>nycsmoothskin1@gmail.com</a>.</p>
             </div>
+            {/* <div style={styles} className="alertbox">
+                <p>
+                    {message}  
+                </p>
+            </div> */}
+            {/* <PopUp msg="hello"/> */}
+            <form className="ContactUsF">
             <div className="contactUs">
-            {/* <form className="ContactUs"> */}
                 {/* first and last name text field */}
                 <div className="flname">
                     <div className="fname">
@@ -109,8 +198,10 @@ export function ContactUs() {
 
 
                 <br></br>
-                {/* <button disabled={isSubmitting} type="submit" className="submit" onClick={handleSubmit}> */}
-                <button type="submit" className="submit">
+                {/* <button disabled={!isSubmitting} type="submit" className="submit" onClick={handleSubmit}> */}
+                <button disabled={true} type="submit" className="submit">
+
+                {/* <button type="submit" className="submit" onClick={handleSubmit}> */}
 
                     {/* {isSubmitting ? 'Submitting...' : 'Submit'} */}
                     Submit
@@ -119,10 +210,11 @@ export function ContactUs() {
                 <p>
                     Please expect a response within 1-3 days.
                 </p>
-             
-            {/* </form> */}
-                
+            
             </div>
+
+            </form>
+                
 
             <div className="contactus-bottom">
                 <p>If you have any questions regrarding Laser Services please contact Anush at (347) 598-7193.</p>
@@ -132,5 +224,11 @@ export function ContactUs() {
 
               
         </div>
+
+
     )
+
+
+
+
 }
